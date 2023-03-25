@@ -10,6 +10,7 @@ This repository contains a simple example of how to set up Amazon S3 cross-regio
 
 ## Repository Structure
 
+```txt
 .
 ├── bin
 │ ├── bucket-replication-cdk.ts
@@ -17,7 +18,7 @@ This repository contains a simple example of how to set up Amazon S3 cross-regio
 │ ├── destination-bucket-stack.ts
 │ ├── source-bucket-stack.ts
 └── README.md
-
+```
 
 - `bin/bucket-replication-cdk.ts`: Contains the AWS CDK stack definition.
 - `lib/destination-bucket-stack.ts`: Contains the destination bucket.
